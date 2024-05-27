@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nómada en el camino</title>
+    <link rel="stylesheet" href="estilos.css">
+    <!--Font Awesome-->
+    <script src="https://kit.fontawesome.com/398f7aaf92.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-color:rgb(50, 78, 52);
+            font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            font-size: 17px;
+        }
+        
+        .contact-form {
+            max-width: 400px;
+            margin: 0 auto;
+            background-color: #fff; /* Fondo blanco para el formulario */
+            padding: 20px;
+            border-radius: 8px; /* Bordes redondeados */
+        }
+
+        .form-title {
+            font-size: 24px;
+            font-weight: bold;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .form-instruction {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        input[type="text"],
+
+        input[type="email"],
+
+        input[type="tel"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: 1px solid #ccc;
+            border-radius: 4px; /* Bordes redondeados para los campos de texto */
+        }
+
+        .form-button {
+            width: 100%;
+            padding: 10px;
+            background-color: #4CAF50; /* Botón verde */
+            color: white;
+            border: none;
+            border-radius: 4px; /* Bordes redondeados para el botón */
+            cursor: pointer;
+        }
+
+        .form-button:hover {
+            background-color: #45a049; /* Color al pasar el ratón */
+        }
+    </style>
+</head>
+<body>
+    <header class="menuarriba">
+        <div class="imagenes">
+        <img src="nomadacamino.png" alt="">
+        <div class="rss"><i class="fa-solid fa-rss"></i></div>
+        </div>
+        <div class="opciones">
+            <ul>
+                <li><a href="index.html">BLOG</a></li>
+                <li><a href="indexnos.html">NOSOTROS</a></li>
+                <li><a href="indexcont.html">CONTACTO</a></li>
+            </ul>
+        </div>
+        <div class="busqueda">
+            <div>Todas las entradas</div>
+            <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+    </header>
+    <main>
+        <div class="contact-form">
+            <div class="form-title">CONTÁCTAME</div>
+            <div class="form-instruction">
+              Si tienes alguna pregunta puedes escribirme a info@misitio.com o llenar este formulario:
+            </div>
+            <form action="/submit-form" method="post">
+              <input type="text" name="nombre" placeholder="Nombre">
+              <input type="email" name="email" placeholder="Email">
+              <input type="tel" name="telefono" placeholder="Teléfono">
+              <textarea name="mensaje" placeholder="Escribe tu mensaje aquí..."></textarea>
+              <button type="submit" class="form-button">Enviar</button>
+            </form>
+        </div>   
+    </main>
+    <footer>
+
+
+    </footer> 
+</body>
+</html>

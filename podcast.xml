@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<podcast xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+	<posts>
+		<post titulo="Introducción a la inteligencia artificial" fecha="2024-03-01">
+			<autor>
+				<nombre>The Wild Project</nombre>
+				<avatar>https://www.example.com/avatar.png</avatar>
+			</autor>
+			<introduccion>Descubre los fundamentos de la inteligencia artificial en este emocionante episodio.</introduccion>
+			<descripcion>En este episodio, exploraremos los conceptos básicos de la inteligencia artificial, incluyendo algoritmos de aprendizaje automático, redes neuronales y aplicaciones prácticas.</descripcion>
+			<tiempo_lectura>30</tiempo_lectura>
+			<num_visualizaciones>1000</num_visualizaciones>
+			<num_comentarios>20</num_comentarios>
+			<num_megusta>50</num_megusta>
+			<imagen>https://www.example.com/imagen.png</imagen>
+		</post>
+		<post titulo="Desarrollo de aplicaciones web con React" fecha="2024-03-02">
+			<autor>
+				<nombre>The Wild Project</nombre>
+				<avatar>https://www.example.com/avatar.png</avatar>
+			</autor>
+			<introduccion>Aprende a construir aplicaciones web modernas con React.</introduccion>
+			<descripcion>En este episodio, aprenderemos los fundamentos de React, incluyendo componentes, estado y enrutamiento, para desarrollar aplicaciones web dinámicas y receptivas.</descripcion>
+			<tiempo_lectura>45</tiempo_lectura>
+			<num_visualizaciones>1500</num_visualizaciones>
+			<num_comentarios>30</num_comentarios>
+			<num_megusta>70</num_megusta>
+			<imagen>https://www.example.com/imagen.png</imagen>
+		</post>
+		<post titulo="Introducción al desarrollo de apps móviles" fecha="2024-03-03">
+			<autor>
+				<nombre>The Wild Project</nombre>
+				<avatar>https://www.example.com/avatar.png</avatar>
+			</autor>
+			<introduccion>Descubre cómo empezar a desarrollar aplicaciones móviles.</introduccion>
+			<descripcion>En este episodio, exploraremos las herramientas y tecnologías necesarias para comenzar a desarrollar aplicaciones móviles para iOS y Android.</descripcion>
+			<tiempo_lectura>40</tiempo_lectura>
+			<num_visualizaciones>1200</num_visualizaciones>
+			<num_comentarios>25</num_comentarios>
+			<num_megusta>60</num_megusta>
+			<imagen>https://www.example.com/imagen.png</imagen>
+		</post>
+		<post titulo="Introducción a la programación en Python" fecha="2024-03-04">
+			<autor>
+				<nombre>The Wild Project</nombre>
+				<avatar>https://www.example.com/avatar.png</avatar>
+			</autor>
+			<introduccion>Aprende los conceptos básicos de la programación con Python.</introduccion>
+			<descripcion>En este episodio, te enseñaremos los fundamentos de la programación utilizando el lenguaje de programación Python, incluyendo variables, estructuras de control y funciones.</descripcion>
+			<tiempo_lectura>35</tiempo_lectura>
+			<num_visualizaciones>1800</num_visualizaciones>
+			<num_comentarios>40</num_comentarios>
+			<num_megusta>80</num_megusta>
+			<imagen>https://www.example.com/imagen.png</imagen>
+		</post>
+	</posts>
+</podcast>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+    <channel>
+        <title>The Wild Project Podcasts</title>
+        <link>https://jesusclase.github.io/Taipe_Podcast/</link>
+        <description>Podcast sobre temas de programacion con The Wild Project</description>
+        <item>
+            <title>Introducción a la inteligencia artificial</title>
+            <link>https://jesusclase.github.io/Taipe_Podcast/</link>
+            <description>Una pequeña introduccion hacia la inteligencia artificial</description>
+            <enclosure url="" length="" type="" />
+        </item>
+        <item>
+            <title>Desarrollo de aplicaciones web con React</title>
+            <link>https://jesusclase.github.io/Taipe_Podcast/</link>
+            <description>El desarrolo de aplicaciomes web con la aplicacion React.</description>
+            <enclosure url="" length="" type="" />
+        </item>
+        <item>
+            <title>Introducción al desarrollo de apps móviles</title>
+            <link>https://jesusclase.github.io/Taipe_Podcast/</link>
+            <description>Una introduccion hacia el desarrollo de apps moviles</description>
+            <enclosure url="" length="" type="" />
+        </item>
+            
+        <item>
+            <title>Introducción a la programación en Python</title>
+            <link>https://jesusclase.github.io/Taipe_Podcast/</link>
+            <description>Introduccion a la programacion con la aplicacion mas comun llamada Python</description>
+            <enclosure url="" length="" type="" />
+        </item>        
+    </channel>
+</rss>
